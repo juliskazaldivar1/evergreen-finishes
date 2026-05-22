@@ -1,3 +1,6 @@
+html, body {
+    background: #F6F3EE !important;
+}
 /* =========================
    LUXURY BRAND COLORS
 ========================= */
@@ -61,6 +64,9 @@ header p {
    HERO SECTION
 ========================= */
 .hero {
+    background: #F6F3EE;
+}
+.hero {
     text-align: center;
     padding: 90px 25px;
 }
@@ -101,26 +107,45 @@ header p {
 }
 
 /* =========================
-   SERVICES SECTIONS
+   SERVICES SECTIONS (LUXURY FIX)
 ========================= */
+
 .services {
     text-align: center;
-    padding: 60px 20px;
+    padding: 80px 20px;
+    background: #F6F3EE;
 }
 
+/* makes sections feel separated + premium */
+.services + .services {
+    border-top: 1px solid rgba(31, 109, 117, 0.12);
+}
+
+/* SECTION TITLES */
+.services h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #1F6D75;
+    margin-bottom: 10px;
+}
+
+/* GOLD LINE */
 .divider {
     width: 120px;
     height: 4px;
-    background: var(--gold);
+    background: #D8C3A5;
     margin: 20px auto 30px auto;
 }
 
+/* TEXT */
 .services p {
     font-size: 1.2rem;
     line-height: 2;
     color: #5B5B5B;
+    max-width: 700px;
+    margin: 0 auto;
 }
-
 /* =========================
    GALLERY
 ========================= */
