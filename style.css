@@ -231,6 +231,8 @@ header p {
     text-align: center;
     padding: 60px 20px;
     background: #F6F3EE;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .mission h3 {
@@ -262,8 +264,10 @@ header p {
     margin-top: 25px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 25px;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .mission-icons span {
