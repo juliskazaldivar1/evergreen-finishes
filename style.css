@@ -223,3 +223,55 @@ header p {
         font-size: 2.2rem;
     }
 }
+/* =========================
+   MISSION BANNER (LUXURY FILL)
+========================= */
+
+.mission {
+    text-align: center;
+    padding: 60px 20px;
+    background: #F6F3EE;
+}
+
+.mission h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    color: #1F6D75;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* reuse your gold divider */
+.mission .divider {
+    width: 100px;
+    height: 3px;
+    background: #D8C3A5;
+    margin: 15px auto 25px auto;
+}
+
+.mission p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #5B5B5B;
+}
+
+/* ICON ROW */
+.mission-icons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.mission-icons span {
+    background: white;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-size: 0.95rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    color: #1F6D75;
+    font-weight: 500;
+}
