@@ -90,7 +90,7 @@ header p {
 .hero {
     background: #F6F3EE;
     text-align: center;
-    padding: 90px 25px;
+    padding: 60px 20px;
 }
 
 .hero h2 {
@@ -342,7 +342,7 @@ header p {
 
 .transition-banner {
     text-align: center;
-    padding: 20px 0 40px 0;
+    padding: 10px 0 10px 0; /* reduced space */
     background: var(--cream);
 }
 
@@ -350,6 +350,7 @@ header p {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.8rem;
     color: var(--dark-teal);
-    margin: 10px 0;
+    margin: 5px 0; /* reduced margin */
     font-weight: 500;
 }
+
