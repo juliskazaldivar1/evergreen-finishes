@@ -85,17 +85,17 @@ header p {
 }
 
 /* =========================
-   HERO SECTION
+   HERO SECTION (FIXED SPACING)
 ========================= */
 .hero {
     background: #F6F3EE;
     text-align: center;
-    padding: 60px 20px;
+    padding: 25px 20px 50px 20px; /* tightened top spacing */
 }
 
 .hero h2 {
     font-size: 4rem;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .hero p {
@@ -340,9 +340,12 @@ header p {
     transform: scale(1.04);
 }
 
+/* =========================
+   TRANSITION TAGLINE (FIXED SPACING)
+========================= */
 .transition-banner {
     text-align: center;
-    padding: 10px 0 10px 0; /* reduced space */
+    padding: 5px 0 5px 0; /* tightened even more */
     background: var(--cream);
 }
 
@@ -350,7 +353,8 @@ header p {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.8rem;
     color: var(--dark-teal);
-    margin: 5px 0; /* reduced margin */
+    margin: 5px 0;
     font-weight: 500;
 }
+
 
