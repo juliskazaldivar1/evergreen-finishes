@@ -279,3 +279,23 @@ header p {
     color: #1F6D75;
     font-weight: 500;
 }
+
+.top-nav {
+  text-align: center;
+  background: #0f172a;
+  padding: 12px 0;
+}
+
+.top-nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.top-nav a:hover {
+  color: #38bdf8;
+}
+
