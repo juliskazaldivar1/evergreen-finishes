@@ -340,3 +340,16 @@ header p {
     transform: scale(1.04);
 }
 
+.transition-banner {
+    text-align: center;
+    padding: 20px 0 40px 0;
+    background: var(--cream);
+}
+
+.transition-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    color: var(--dark-teal);
+    margin: 10px 0;
+    font-weight: 500;
+}
